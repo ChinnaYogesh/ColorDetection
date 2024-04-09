@@ -26,15 +26,15 @@ K-Nearest Neighbors (KNN) is a simple yet powerful supervised learning algorithm
 
 ## Feature Extraction 
 Color Histogram is a representation of the distribution of colors in an image. For digital images, a color histogram represents the number of pixels that have colors in each of a fixed list of color ranges, that span the image's color space, the set of all possible colors.
+![WhatsApp Image 2024-04-09 at 10 37 51 AM (1)](https://github.com/ChinnaYogesh/ColorDetection/assets/166421276/23b71eb4-c66f-4d0c-9983-8f735ccd4601)
 
-![Screenshot 2024-04-08 204704](https://github.com/ShasankKasi/Color-Detection/assets/113813427/d54ab1a2-eed4-4317-bceb-ffdd4a7674a0)
 
 ## Implementation 
 The provided Python script is a comprehensive implementation for real-time color detection utilizing the OpenCV library.The script integrates color histogram feature extraction and k-nearest neighbors (KNN) classification techniques. It captures frames from a
 connected webcam, performing color histogram feature extraction on each frame. The
 extracted features are then utilized by the KNN classifier to predict the color of objects within the frame. The script dynamically checks for the existence of training data,
 automatically generating it if absent.
-![Screenshot 2024-04-08 200327](https://github.com/ShasankKasi/Color-Detection/assets/113813427/2c708a5c-8e55-4adc-8343-0f598f6e5f72)
+![WhatsApp Image 2024-04-09 at 10 37 51 AM](https://github.com/ChinnaYogesh/ColorDetection/assets/166421276/60891b29-8c27-4f80-a5f5-9db1f38f19da)
 
 
 ## Testing Data
@@ -43,15 +43,14 @@ of training data. If absent, it triggers the creation of training data by invoki
 color histogram extraction.py‘. Subsequently, the script initializes the webcam to capture live frames and calculates the color histograms using ‘color histogram of test image.py‘
 to extract BGR values. These values are then passed to the KNN classifier for color prediction. Finally, the predicted color is displayed on the webcam feed. 
 
-![Screenshot 2024-04-08 194056](https://github.com/ShasankKasi/Color-Detection/assets/113813427/9fa7e960-ea18-47fb-91b2-09714d944e03)
+![WhatsApp Image 2024-04-09 at 10 37 51 AM (2)](https://github.com/ChinnaYogesh/ColorDetection/assets/166421276/b00614ae-0738-421c-b487-38dd60a7e77a)
 
 ## Color Detection Demo Video
 
 Watch a demo video showcasing color detection using the KNN classifier:
 
 
-https://github.com/ShasankKasi/Color-Detection/assets/113813427/93908ccd-b80f-40db-b1e0-2a902a1274ae
-
+https://github.com/ChinnaYogesh/ColorDetection/assets/166421276/9d27aa1a-b96b-4881-aafa-c99c8fbc679c
 
 
 Click the image above to play the video.
